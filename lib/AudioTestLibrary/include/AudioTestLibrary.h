@@ -8,13 +8,19 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
+#include <Audio.h>
 
 class AudioTestClass {
 
 public:
+    AudioTestClass();
+
     void setup();
 
     void loop();
+
+private:
+    AudioInputI2S i2s1;
 };
 
 
