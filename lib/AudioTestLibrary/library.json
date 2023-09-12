@@ -2,7 +2,7 @@
   "name": "AudioTestLibrary",
   "version": "1.0.0",
   "description": "A library to test the TeensyAudio library.",
-  "dependencies": ["Audio","SD","SdFat"],
+  "dependencies": "Audio",
   "frameworks": "arduino",
   "platforms": "teensy"
 }
